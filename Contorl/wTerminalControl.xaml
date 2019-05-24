@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="wContorl.wTerminalControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wContorl"
+             xmlns:local1="clr-namespace:tterm.Ui"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <local1:TerminalControl x:Name="terminalControl"
+                                   PreviewMouseWheel="terminalControl_PreviewMouseWheel" />
+    </Grid>
+</UserControl>
